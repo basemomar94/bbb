@@ -7,11 +7,11 @@ class Nakd extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Nakd',
-      home: SafeArea(child: homepage ()),
+      home: SafeArea(child: HomePage()),
     );
   }
 }
-class homepage extends StatelessWidget {
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold( appBar: AppBar(
